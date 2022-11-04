@@ -1,0 +1,66 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover; 
+}
+.box{
+    width: 450px;
+    background: #666;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    color: #ccc;
+}
+
+.box img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box img:hover{
+    transform: scale(1.8);
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p{
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;   
+    margin: 20px;
+    list-style: none; 
+}
+
+.box li a {
+    color: #ccc;
+    font-size: 60px;
+    transition: 0.5s;
+}
+.box li a:hover{
+    color: rgb(0, 0, 0);
+    
+}
